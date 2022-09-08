@@ -8,3 +8,9 @@
     text-align: center;
     padding-bottom: 64px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__subtitle {
+        padding-bottom: 69px;
+    }
+}

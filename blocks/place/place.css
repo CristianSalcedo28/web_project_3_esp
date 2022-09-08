@@ -1,7 +1,18 @@
 .place {
-    border: 1px solid pink;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 220px auto;
+    grid-template-rows: 260px auto;
     gap: 48px 40px;
+    max-width: 984px;
+    flex-wrap: wrap;
 }
+
+@media screen and (max-width: 768px) {
+    .place {
+        max-width: 720px; 
+        gap: 46px 28px;
+        grid-template-rows: 200px auto;
+    }
+}
+
+

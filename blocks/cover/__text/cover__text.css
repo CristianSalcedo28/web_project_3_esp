@@ -3,8 +3,9 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 280px;
-    height: 66px;
-    
+    text-align: center;
 }

@@ -1,6 +1,16 @@
 .intro {
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-width: 1017px;
-    height: 516px;
-    margin: 92px 148px;
+    margin: 92px auto;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: 720px;
+        margin: 64px auto;
+    }
 }

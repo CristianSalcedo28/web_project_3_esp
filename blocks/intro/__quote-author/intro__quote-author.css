@@ -6,5 +6,12 @@
     max-width: 720px;
     height: 34px;
     text-align: right;
-    margin-top: -55px;
+    margin-top: -70px;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__quote-author {
+        margin-bottom: 32px;
+    }
 }

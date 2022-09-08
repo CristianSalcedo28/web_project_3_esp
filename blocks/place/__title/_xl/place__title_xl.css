@@ -1,7 +1,7 @@
-.place__title {
+.place__title_xl {
     color: #fff;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 62px;
     line-height: 1.06;
     display: flex;
     flex-direction: column;
@@ -9,8 +9,8 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__title {
-        font-size: 42px;
+    .place__title_xl {
+        font-size: 38px;
         line-height: 1.10;
     }
 }

@@ -1,15 +1,15 @@
-.place__description {
+.place__description_text {
     color: #fff;
     width: 484px;
-    height: 203px;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
+    margin-bottom: 17px;
 }
 
 @media screen and (max-width: 768px) {
-    .place__description {
+    .place__description_text {
         width: 352px;
         font-size: 16px;
-     }
+    }
 }

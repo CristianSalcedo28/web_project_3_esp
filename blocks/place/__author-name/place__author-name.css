@@ -1,9 +1,15 @@
 .place__author-name {
-    border: 1px solid red;
     width: 456px;
     height: 22px;
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
+}
+
+@media screen and (max-width: 768px) {
+    .place__author-name {
+        width: 352px;
+        height: 22px;
+    }
 }
