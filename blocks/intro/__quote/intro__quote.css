@@ -7,3 +7,11 @@
     height: 136px;
     margin-bottom: 42px;
 }
+
+@media screen and (max-width: 320px) {
+    .intro__quote {
+        max-width: 288px;
+        line-height: 1.25;
+        padding-bottom: 32px;
+    }
+}

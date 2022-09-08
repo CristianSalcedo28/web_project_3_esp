@@ -6,3 +6,9 @@
     filter: grayscale(100%);
 }
 
+
+@media screen and (max-width: 320px) {
+    .header__image {
+        height: 200px;
+    }
+}
