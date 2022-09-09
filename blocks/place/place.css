@@ -21,7 +21,6 @@
 
 @media screen and (max-width: 320px) {
     .place {
-        border: 1px solid pink;
         max-width: 320px;
         display: grid;
         grid-template-columns: 288px;
