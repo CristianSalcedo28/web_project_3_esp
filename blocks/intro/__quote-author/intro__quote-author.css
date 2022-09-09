@@ -4,7 +4,7 @@
     font-size: 24px;
     line-height: 1.42;
     max-width: 720px;
-    height: 34px;
+    /*height: 34px;*/
     text-align: right;
     margin-top: -70px;
     margin-bottom: 32px;
@@ -13,5 +13,12 @@
 @media screen and (max-width: 768px) {
     .intro__quote-author {
         margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__quote-author {
+        max-width: 288px;
+        margin-bottom: 0;
     }
 }

@@ -4,12 +4,24 @@
     color: #fff;
     background: #0278FE;
     border-radius: 4px;
-    justify-content: center;
-    align-items: center;
     font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
     padding: 13px 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .place__link {
+        width: 325px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__link {
+        width: 288px;
+        font-size: 14px;
+    }
+}
+
 

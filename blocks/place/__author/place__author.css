@@ -3,3 +3,10 @@
     flex-direction: column;
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 320px) {
+    .place__author {
+        width: 288px;
+        margin: 0 16px;                     
+    }
+}

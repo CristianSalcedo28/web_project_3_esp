@@ -1,6 +1,6 @@
 .place__author-name {
-    width: 456px;
-    height: 22px;
+    max-width: 456px;
+    /*height: 22px;*/
     color: #fff;
     font-weight: 400;
     font-size: 18px;
@@ -9,7 +9,13 @@
 
 @media screen and (max-width: 768px) {
     .place__author-name {
-        width: 352px;
-        height: 22px;
+        max-width: 352px;
+       /* height: 22px;*/
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__author-name {
+        max-width: 288px;
     }
 }
