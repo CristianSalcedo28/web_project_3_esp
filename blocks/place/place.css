@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1000px) {
     .place {
-        max-width: 720px; 
+        max-width: 720px;
         gap: 46px 13px;
         grid-template-rows: 200px auto;
         margin: 0 auto;
