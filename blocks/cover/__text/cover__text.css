@@ -5,13 +5,18 @@
     line-height: 1.22;
     display: flex;
     flex-direction: column;
-    width: 280px;
-    text-align: center;
+    width: 656px;
+    height: 254px;
+    align-items: center;
+    margin: auto;
 }
 
 @media screen and (max-width: 320px) {
     .cover__text {
         font-size: 14px;
         line-height: 1.14;
+        width: 288px;
+        height: 163px;
+        padding: 20px 0 0;
     }
 }

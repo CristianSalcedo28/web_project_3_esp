@@ -19,9 +19,6 @@
 @media screen and (max-width: 320px) {
     .intro__quote-author {
         max-width: 288px;
-<<<<<<< HEAD
         margin-bottom: 0;
-=======
->>>>>>> 21e40dd65e5747b9e8ebf9b5844036a0f45b7734
     }
 }

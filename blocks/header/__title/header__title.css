@@ -17,11 +17,7 @@
 
 @media screen and (max-width: 320px) {
     .header__title {
-<<<<<<< HEAD
         max-width: 288px;
-=======
-        width: 288px;
->>>>>>> 21e40dd65e5747b9e8ebf9b5844036a0f45b7734
         height: 88px;
         font-size: 40px;
         line-height: 1.10;

@@ -8,18 +8,18 @@
     justify-content: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .place__title_xl {
         font-size: 38px;
         line-height: 1.10;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
     .place__title_xl {
         width: 288px;
         font-size: 32px;
         line-height: 1.09;
-        margin: 0 16px; 
+        margin: 20px 16px; 
     }
 }

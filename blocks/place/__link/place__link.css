@@ -8,27 +8,29 @@
     font-size: 18px;
     line-height: 1.22;
     text-align: center;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    transition: background 1s linear 0.3s;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 768px) {
-=======
-/*@media screen and (max-width: 768px) {
->>>>>>> 21e40dd65e5747b9e8ebf9b5844036a0f45b7734
+.place__link:hover {
+    background: #0063D2;
+}
+
+
+@media screen and (max-width: 1000px) {
     .place__link {
-        width: 325px;
+        width: 355px;
     }
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
     .place__link {
         width: 288px;
         height: 48px;
         font-size: 14px;
+        margin: 0 16px;
     }
 }
 
 
-=======
->>>>>>> 21e40dd65e5747b9e8ebf9b5844036a0f45b7734

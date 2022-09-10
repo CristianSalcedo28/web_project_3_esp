@@ -5,14 +5,14 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .place__image_last {
         width: 340px;
         height: 340px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
     .place__image_last {
         width: 320px;
         height: 320px;

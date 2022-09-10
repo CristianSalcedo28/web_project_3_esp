@@ -1,20 +1,18 @@
 .place__author-name {
     max-width: 456px;
-    /*height: 22px;*/
     color: #fff;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.22;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .place__author-name {
-        max-width: 352px;
-       /* height: 22px;*/
+        max-width: 352px;   
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 740px) {
     .place__author-name {
         max-width: 288px;
     }
